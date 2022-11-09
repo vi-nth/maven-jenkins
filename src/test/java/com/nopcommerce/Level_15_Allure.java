@@ -68,7 +68,7 @@ public class Level_15_Allure extends BaseTest {
 
 		homePage = loginPage.clickToLoginButton();
 
-		Assert.assertFalse(homePage.isMyAccountLinkDisplayed());
+		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
 	}
 
