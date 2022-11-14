@@ -14,7 +14,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class Level_15_Allure extends BaseTest {
+public class Level_01_Maven_Jenkins_Demo extends BaseTest {
 	private WebDriver driver;
 
 	private UserHomePageObject homePage;
@@ -69,6 +69,11 @@ public class Level_15_Allure extends BaseTest {
 		homePage = loginPage.clickToLoginButton();
 
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
+
+	}
+
+	@Test
+	public void User_03_Edit_User_Infor() {
 
 	}
 
