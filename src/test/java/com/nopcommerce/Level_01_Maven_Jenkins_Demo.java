@@ -73,7 +73,7 @@ public class Level_01_Maven_Jenkins_Demo extends BaseTest {
 	}
 
 	@Test
-	public void User_03_Edit_User_Infor() {
+	public void User_03_Edit_User_Infor_() {
 
 	}
 
